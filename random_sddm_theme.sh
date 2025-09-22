@@ -1,7 +1,7 @@
 #!/bin/bash
 
-METADATA="/usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop"
-THEME_DIR="/usr/share/sddm/themes/sddm-astronaut-theme/Themes"
+METADATA="/usr/share/sddm/themes/sddm-astronaut-random-theme/metadata.desktop"
+THEME_DIR="/usr/share/sddm/themes/sddm-astronaut-random-theme/Themes"
 
 # Récupérer la liste des fichiers *.conf
 themes=("$THEME_DIR"/*.conf)

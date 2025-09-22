@@ -21,7 +21,7 @@ readonly -a THEMES=(
     "post-apocalyptic_hacker" "purple_leaves" "endless-summer-sea" 
     "fast-furious-mitsubishi" "kanao-tsuyuri-demon-slayer" "serenity"
     "steve" "truc" "battlefield-bad-company-2" "samurai-sekiro-near-trees"
-    "samurai-near-the-tree2" "jakoolit"
+    "samurai-near-the-tree2" "jakoolit" "black_hole" "black_hole2" 
 )
 
 # Logging with gum fallback
