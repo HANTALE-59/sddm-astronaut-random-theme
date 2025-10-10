@@ -22,6 +22,7 @@ readonly -a THEMES=(
     "fast-furious-mitsubishi" "kanao-tsuyuri-demon-slayer" "serenity"
     "steve" "truc" "battlefield-bad-company-2" "samurai-sekiro-near-trees"
     "samurai-near-the-tree2" "jakoolit" "black_hole" "black_hole2" 
+    "yongli-sword-ghost-of-tsushima"
 )
 
 # Logging with gum fallback
@@ -175,7 +176,7 @@ enable_sddm() {
 preview_theme(){
     local log_file="/tmp/${THEME_NAME}_$DATE.txt"
     
-    sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/ > $log_file 2>&1 &
+    sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-random-theme/ > $log_file 2>&1 &
     greeter_pid=$!
 
     # wait for ten seconds
